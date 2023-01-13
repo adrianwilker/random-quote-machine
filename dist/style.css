@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7FB685;
+  transition: .5s ease-in;
+}
+
+div.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+div#quote-box {
+  background-color: #FFF;
+  border: solid 1px #000;
+  width: 450px;
+  padding: 35px 40px;
+  border-radius: 3px;
+  box-shadow: 10px 10px #252525;
+}
+
+div#text {
+  font-size: 25px;
+  text-align: center;
+}
+
+.fa-quote-left {
+  font-size: 19px;
+  position: relative;
+  top: -8px;
+}
+
+div#author {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+button#new-quote {
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #FFF;
+  padding: 7px 12px;
+  border: solid 1px #000;
+  border-radius: 4px;
+  position: relative;
+}
+
+button#new-quote:hover {
+  box-shadow: 3px 3px 0px #252525;
+  right: 3px;
+  bottom: 3px;
+  cursor:pointer;
+}
+
+#tweet-quote {
+  color: #000;
+  font-size: 20px;
+  padding: 7px 12px;
+  border: solid 1px #000;
+  border-radius: 4px;
+  position: relative;
+}
+
+#tweet-quote:hover {
+  box-shadow: 3px 3px 0px #252525;
+  right: 3px;
+  bottom: 3px;
+}
+
+div#footer {
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
