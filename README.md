@@ -1,4 +1,10 @@
-# FCC: Random Quote Machine
+# Random Quote Machine
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/adrianwilker/pen/qBymLVE](https://codepen.io/adrianwilker/pen/qBymLVE).
+## About
+A website that returns random quotes to the user when the button is clicked. The functional version can be seen in [my CodePen](https://codepen.io/adrianwilker/full/qBymLVE).
 
+## Used in this project
+- HTML
+- CSS
+- JavaScript
+- jQuery
